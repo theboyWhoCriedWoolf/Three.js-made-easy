@@ -2,9 +2,9 @@ Threesy - A Three.js Component to try and help simplify Three.js Development
 
 EXAMPLE
 
+
 var _animationRequest;
 var geometry, material, mesh;
-
 
 window.onload = function()
 {
@@ -13,7 +13,7 @@ window.onload = function()
     	animate();
 }
 
-
+// initialise
 function init()
 {
 	
@@ -41,7 +41,7 @@ function animate()
 
 
 
-For a full explanation and instructions on how to use the Event Manager please visit - http://theboywhocriedwoolf.com/javascript-event-manager/
+For a full explanation and instructions on how to use Threesy.js please visit - http://theboywhocriedwoolf.com/three-js-made-easy/
 
 Please contact me with regards to any comments and or improvements.
 
