@@ -18,8 +18,7 @@ window.onload = function()
 // initialise
 function init()
 {
-</code>
-</pre>
+
 	// initiate Threesy with default settings
 	Threesy.init( document.getElementById("container"), window.innerWidth, window.innerHeight );
 	
@@ -42,6 +41,8 @@ function animate()
     	mesh.rotation.y += 0.02;
 }
 
+</code>
+</pre>
 
 
 For a full explanation and instructions on how to use Threesy.js please visit - http://theboywhocriedwoolf.com/three-js-made-easy/
