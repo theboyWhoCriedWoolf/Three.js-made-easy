@@ -12,7 +12,7 @@ window.onload = function()
 {
 	init();
 	// start animating
-    	animate();
+    animate();
 }
 
 // initialise
@@ -24,11 +24,11 @@ function init()
 	
 	// create Three.js mesh
 	geometry = new THREE.CubeGeometry( 200, 200, 200 );
-    	material = new THREE.MeshBasicMaterial( { color: 0xff0000, wireframe: true } );
-    	mesh = new THREE.Mesh( geometry, material );
+    material = new THREE.MeshBasicMaterial( { color: 0xff0000, wireframe: true } );
+    mesh = new THREE.Mesh( geometry, material );
     
-    	// add mesh to Threesy
-    	Threesy.addToScene( mesh );
+    // add mesh to Threesy
+    Threesy.addToScene( mesh );
 }
 
 // animate
@@ -38,7 +38,7 @@ function animate()
 	Threesy.render();
 	
 	mesh.rotation.x += 0.01;
-    	mesh.rotation.y += 0.02;
+    mesh.rotation.y += 0.02;
 }
 
 </code>
