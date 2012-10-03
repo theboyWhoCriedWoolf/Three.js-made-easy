@@ -1,8 +1,10 @@
 Threesy - A Three.js Component to try and help simplify Three.js Development
 
-EXAMPLE
+EXAMPLE:
 
-
+<pre>
+<code>
+// set variables
 var _animationRequest;
 var geometry, material, mesh;
 
@@ -16,7 +18,8 @@ window.onload = function()
 // initialise
 function init()
 {
-	
+</code>
+</pre>
 	// initiate Threesy with default settings
 	Threesy.init( document.getElementById("container"), window.innerWidth, window.innerHeight );
 	
